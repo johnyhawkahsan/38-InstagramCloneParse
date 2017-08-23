@@ -1,0 +1,102 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:9:1-38:12
+	package
+		ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:10:5-32
+		INJECTED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:9:11-69
+	android:versionCode
+		INJECTED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:14:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:16:22-76
+application
+ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:18:5-36:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\e2eaca6bd55fdeb732a884ee9554c3fefddb84af\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\bea1e8ca72a77d1cc6ab33729b2abe130fe74098\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\56c5eaa829ab0cf70e28b9451ae45864c9094e26\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\e293a0f90606f5ccaf7b6f6be9f45ec83e8ad491\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\de485cc881cc9dc5431946f93b753e515a5b2c63\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\a70138ddc4af3df9cad5e1613a34534c01dc1bfe\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\8e1ffb3f5f7e8b4c0f0fcaf7e725786e3f581acc\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\2f7a1330da41b93d24b8c75d22600f01b2e423e3\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\303e497e3d61eee3312549412e11438958c8274c\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:22:9-41
+	android:allowBackup
+		ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:20:9-35
+	android:icon
+		ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:21:9-43
+	android:theme
+		ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:23:9-40
+	android:name
+		ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:19:9-43
+activity#com.parse.starter.MainActivity
+ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:25:9-33:20
+	android:label
+		ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:27:13-45
+	android:name
+		ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:26:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:28:13-32:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:31:27-74
+uses-sdk
+INJECTED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Muhammad Ahsan\.android\build-cache\8a5b83d8e4e30d80472bf0d47e35b8a2c50f1ad9\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\e2eaca6bd55fdeb732a884ee9554c3fefddb84af\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\bea1e8ca72a77d1cc6ab33729b2abe130fe74098\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\56c5eaa829ab0cf70e28b9451ae45864c9094e26\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\e293a0f90606f5ccaf7b6f6be9f45ec83e8ad491\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\de485cc881cc9dc5431946f93b753e515a5b2c63\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\a70138ddc4af3df9cad5e1613a34534c01dc1bfe\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\8e1ffb3f5f7e8b4c0f0fcaf7e725786e3f581acc\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\2f7a1330da41b93d24b8c75d22600f01b2e423e3\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\303e497e3d61eee3312549412e11438958c8274c\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\e2eaca6bd55fdeb732a884ee9554c3fefddb84af\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\e2eaca6bd55fdeb732a884ee9554c3fefddb84af\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\bea1e8ca72a77d1cc6ab33729b2abe130fe74098\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\56c5eaa829ab0cf70e28b9451ae45864c9094e26\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\e293a0f90606f5ccaf7b6f6be9f45ec83e8ad491\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\de485cc881cc9dc5431946f93b753e515a5b2c63\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\a70138ddc4af3df9cad5e1613a34534c01dc1bfe\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\8e1ffb3f5f7e8b4c0f0fcaf7e725786e3f581acc\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\2f7a1330da41b93d24b8c75d22600f01b2e423e3\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\303e497e3d61eee3312549412e11438958c8274c\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\e2eaca6bd55fdeb732a884ee9554c3fefddb84af\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\e2eaca6bd55fdeb732a884ee9554c3fefddb84af\output\AndroidManifest.xml:26:9-47
