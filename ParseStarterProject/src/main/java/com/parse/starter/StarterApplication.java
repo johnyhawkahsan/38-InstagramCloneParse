@@ -36,6 +36,8 @@ public class StarterApplication extends Application {
             .build()
     );
 
+/*
+    //Just to test if Parse Installation is working correctly, so we don't need it anymore
     ParseObject object = new ParseObject("ExampleObject");
     object.put("myNumber", "123");
     object.put("myString", "rob");
@@ -52,7 +54,7 @@ public class StarterApplication extends Application {
         }
       }
     });
-
+*/
 
     ParseUser.enableAutomaticUser();
 
