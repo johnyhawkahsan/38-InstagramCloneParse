@@ -17,6 +17,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Switch;
+import android.widget.Toast;
 
 import com.parse.FindCallback;
 import com.parse.GetCallback;
@@ -36,6 +37,78 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    EditText usernameField;
+    EditText passwordField;
+    Button signUpButton;
+    Button logInButton;
+    ImageView imageView;
+    ConstraintLayout constraintLayout;
+
+
+
+    //Define onClick for sign up button first.
+    public void signup(View view){
+
+        if (usernameField.getText().toString() == "" || passwordField.getText().toString() == ""){
+
+            Toast.makeText(this, "A username and password is required.", Toast.LENGTH_SHORT).show();
+
+        } else {
+
+            ParseUser user = new ParseUser();
+
+            user.setUsername(usernameField.getText().toString());
+            user.setPassword(passwordField.getText().toString());
+
+            user.signUpInBackground(new SignUpCallback() {
+                @Override
+                public void done(ParseException e) {
+
+                    if (e == null){
+
+                        Log.i("Signup", "Successful");
+
+                    } else {
+
+                        Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
+
+                    }
+
+                }
+            });
+        }
+    }
+
+
+
+    //Login method
+    public void login(View view){
+
+        if (usernameField.getText().toString() == "" || passwordField.getText().toString() == ""){
+
+            Toast.makeText(this, "A username and password is required.", Toast.LENGTH_SHORT).show();
+
+        } else {
+
+            ParseUser.logInInBackground(usernameField.getText().toString(), passwordField.getText().toString(), new LogInCallback() {
+                @Override
+                public void done(ParseUser user, ParseException e) {
+
+                    if (user != null){
+
+                        Log.i("Login", "Login Successful");
+
+                    } else {
+
+                        Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
+
+                    }
+
+                }
+            });
+
+        }
+    }
 
 
 
@@ -46,7 +119,8 @@ public class MainActivity extends AppCompatActivity {
 
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
 
-
+      usernameField = (EditText) findViewById(R.id.username);
+      passwordField = (EditText) findViewById(R.id.password);
 
 
   }
