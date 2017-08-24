@@ -140,6 +140,10 @@
         "source": "C:\\Users\\Muhammad Ahsan\\.android\\build-cache\\e2eaca6bd55fdeb732a884ee9554c3fefddb84af\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
+        "merged": "C:\\Users\\Muhammad Ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable\\instagram.png",
+        "source": "C:\\Users\\Muhammad Ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\src\\main\\res\\drawable\\instagram.png"
+    },
+    {
         "merged": "C:\\Users\\Muhammad Ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\Users\\Muhammad Ahsan\\.android\\build-cache\\e2eaca6bd55fdeb732a884ee9554c3fefddb84af\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },

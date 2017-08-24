@@ -40,6 +40,7 @@ MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Muhammad Ah
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\8e1ffb3f5f7e8b4c0f0fcaf7e725786e3f581acc\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\2f7a1330da41b93d24b8c75d22600f01b2e423e3\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\303e497e3d61eee3312549412e11438958c8274c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Muhammad Ahsan\.android\build-cache\9a8de0835f00237300a86a88d728e451794c0280\output\AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from C:\Users\Muhammad Ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:22:9-41
 	android:allowBackup
@@ -78,6 +79,7 @@ MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Muhammad Ah
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\8e1ffb3f5f7e8b4c0f0fcaf7e725786e3f581acc\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\2f7a1330da41b93d24b8c75d22600f01b2e423e3\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\303e497e3d61eee3312549412e11438958c8274c\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Muhammad Ahsan\.android\build-cache\9a8de0835f00237300a86a88d728e451794c0280\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Muhammad Ahsan\.android\build-cache\e2eaca6bd55fdeb732a884ee9554c3fefddb84af\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
