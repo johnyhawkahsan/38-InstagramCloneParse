@@ -12,7 +12,9 @@ import android.os.Bundle;
 import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -35,7 +37,9 @@ import com.parse.SignUpCallback;
 import java.util.List;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements
+        View.OnKeyListener,
+        View.OnClickListener{
 
     EditText usernameField;
     EditText passwordField;
@@ -121,10 +125,54 @@ public class MainActivity extends AppCompatActivity {
 
       usernameField = (EditText) findViewById(R.id.username);
       passwordField = (EditText) findViewById(R.id.password);
+      signUpButton = (Button) findViewById(R.id.signUpButton);
+      logInButton = (Button) findViewById(R.id.loginButton);
+      imageView = (ImageView) findViewById(R.id.imageView);
+      constraintLayout = (ConstraintLayout) findViewById(R.id.constraintLayout);
 
+      //This below method is implemented in onClick(View view) method to hide keyboard when clicked on these.
+      imageView.setOnClickListener(this);
+      constraintLayout.setOnClickListener(this);
 
   }
 
+
+
+
+
+
+
+  
+
+    //TODO: Method to use enter button to automatically launch a method, either login or sign up
+    @Override
+    public boolean onKey(View v, int keyCode, KeyEvent event) {
+
+        //If enter key is pressed, launch the login method
+        //TODO: Note: keyEvent launches method twice, once when key is pressed, and again when finger is lifted up, so we also need to check for KeyEvent.Action_DOWN
+        if (keyCode == KeyEvent.KEYCODE_ENTER && event.getAction() == KeyEvent.ACTION_DOWN){
+
+            login(v);
+
+        }
+
+        return false;
+    }
+
+
+    //TODO: Method to hide the keyboard when someone clicks outside usernameField and passwordField, those items include : imageView and constraintLayout
+    @Override
+    public void onClick(View view) {
+
+        if (view.getId() == R.id.imageView || view.getId() == R.id.constraintLayout){
+
+            Log.i("ClickedItemsID", String.valueOf(view.getId()));//Just for testing
+            InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);//Gets keyboard for us
+            inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);//Hide soft input means the software form of keyboard,
+
+        }
+
+    }
 }
 
 
