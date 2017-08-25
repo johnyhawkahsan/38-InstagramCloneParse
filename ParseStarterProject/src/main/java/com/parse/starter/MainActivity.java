@@ -48,6 +48,14 @@ public class MainActivity extends AppCompatActivity implements
     ImageView imageView;
     ConstraintLayout constraintLayout;
 
+    //Start UserListActivity.class which shows signed up users to the new user
+    public void showUserList(){
+
+        Intent intent = new Intent(getApplicationContext(), UserListActivity.class);
+        startActivity(intent);
+
+    }
+
 
 
     //Define onClick for sign up button first.
@@ -71,6 +79,7 @@ public class MainActivity extends AppCompatActivity implements
                     if (e == null){
 
                         Log.i("Signup", "Successful");
+                        showUserList();
 
                     } else {
 
@@ -101,6 +110,7 @@ public class MainActivity extends AppCompatActivity implements
                     if (user != null){
 
                         Log.i("Login", "Login Successful");
+                        showUserList();
 
                     } else {
 
@@ -134,6 +144,13 @@ public class MainActivity extends AppCompatActivity implements
       imageView.setOnClickListener(this);
       constraintLayout.setOnClickListener(this);
 
+
+
+      //If user is already logged in, launch showUSers method
+      if (ParseUser.getCurrentUser() != null){
+          showUserList();
+      }
+
   }
 
 
@@ -142,7 +159,7 @@ public class MainActivity extends AppCompatActivity implements
 
 
 
-  
+
 
     //TODO: Method to use enter button to automatically launch a method, either login or sign up
     @Override
