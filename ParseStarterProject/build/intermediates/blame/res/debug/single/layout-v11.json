@@ -1,5 +1,17 @@
 [
     {
+        "merged": "C:\\Users\\ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\ahsan\\.android\\build-cache\\0e37a62feb358ccd02af850cadff7db2a3fdde2b\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\ahsan\\.android\\build-cache\\0e37a62feb358ccd02af850cadff7db2a3fdde2b\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\ahsan\\.android\\build-cache\\0e37a62feb358ccd02af850cadff7db2a3fdde2b\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
         "merged": "C:\\Users\\Muhammad Ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
         "source": "C:\\Users\\Muhammad Ahsan\\.android\\build-cache\\e2eaca6bd55fdeb732a884ee9554c3fefddb84af\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
     },
@@ -8,8 +20,16 @@
         "source": "C:\\Users\\Muhammad Ahsan\\.android\\build-cache\\e2eaca6bd55fdeb732a884ee9554c3fefddb84af\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
     },
     {
+        "merged": "C:\\Users\\ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\ahsan\\.android\\build-cache\\0e37a62feb358ccd02af850cadff7db2a3fdde2b\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
         "merged": "C:\\Users\\Muhammad Ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
         "source": "C:\\Users\\Muhammad Ahsan\\.android\\build-cache\\e2eaca6bd55fdeb732a884ee9554c3fefddb84af\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\ahsan\\.android\\build-cache\\0e37a62feb358ccd02af850cadff7db2a3fdde2b\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
     },
     {
         "merged": "C:\\Users\\Muhammad Ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
@@ -22,5 +42,9 @@
     {
         "merged": "C:\\Users\\Muhammad Ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
         "source": "C:\\Users\\Muhammad Ahsan\\.android\\build-cache\\e2eaca6bd55fdeb732a884ee9554c3fefddb84af\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\ahsan\\.android\\build-cache\\0e37a62feb358ccd02af850cadff7db2a3fdde2b\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
     }
 ]

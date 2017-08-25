@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\Muhammad Ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\Muhammad Ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }
