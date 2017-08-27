@@ -133,6 +133,8 @@ public class MainActivity extends AppCompatActivity implements
 
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
 
+      setTitle("InstagramClone");
+
       usernameField = (EditText) findViewById(R.id.username);
       passwordField = (EditText) findViewById(R.id.password);
       signUpButton = (Button) findViewById(R.id.signUpButton);

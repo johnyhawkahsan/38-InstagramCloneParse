@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:9:1-35:12
+ADDED from C:\Users\ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:9:1-36:12
 	package
 		ADDED from C:\Users\ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:10:5-32
 		INJECTED from C:\Users\ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml
@@ -30,7 +30,7 @@ ADDED from C:\Users\ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStar
 	android:name
 		ADDED from C:\Users\ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:15:22-76
 application
-ADDED from C:\Users\ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:17:5-33:19
+ADDED from C:\Users\ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:17:5-34:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ahsan\.android\build-cache\0e37a62feb358ccd02af850cadff7db2a3fdde2b\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ahsan\.android\build-cache\252f92e1b5cbf0e08f5cda86b25584e8b72090c7\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ahsan\.android\build-cache\dbb2ef47e72d7be6f453bd54973f0600067a9377\output\AndroidManifest.xml:29:5-20
@@ -68,9 +68,13 @@ ADDED from C:\Users\ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStar
 	android:name
 		ADDED from C:\Users\ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:29:27-74
 activity#com.parse.starter.UserListActivity
-ADDED from C:\Users\ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:32:9-63
+ADDED from C:\Users\ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:32:9-54
 	android:name
 		ADDED from C:\Users\ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:32:19-51
+activity#com.parse.starter.UserFeedActivity
+ADDED from C:\Users\ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:33:9-63
+	android:name
+		ADDED from C:\Users\ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml:33:19-51
 uses-sdk
 INJECTED from C:\Users\ahsan\AndroidStudioProjects\38-InstagramCloneParse\ParseStarterProject\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:multidex:1.0.1] C:\Users\ahsan\.android\build-cache\86fb7b538749427449c8ff1939c8a9e5cbb8891c\output\AndroidManifest.xml:18:5-42

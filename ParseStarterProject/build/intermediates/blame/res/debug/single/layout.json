@@ -188,6 +188,10 @@
         "source": "C:\\Users\\Muhammad Ahsan\\.android\\build-cache\\e2eaca6bd55fdeb732a884ee9554c3fefddb84af\\output\\res\\layout\\notification_template_custom_big.xml"
     },
     {
+        "merged": "C:\\Users\\ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_feed.xml",
+        "source": "C:\\Users\\ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\src\\main\\res\\layout\\activity_user_feed.xml"
+    },
+    {
         "merged": "C:\\Users\\ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\Users\\ahsan\\.android\\build-cache\\0e37a62feb358ccd02af850cadff7db2a3fdde2b\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
