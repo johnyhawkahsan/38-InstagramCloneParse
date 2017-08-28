@@ -171,6 +171,7 @@ public class MainActivity extends AppCompatActivity implements
         //TODO: Note: keyEvent launches method twice, once when key is pressed, and again when finger is lifted up, so we also need to check for KeyEvent.Action_DOWN
         if (keyCode == KeyEvent.KEYCODE_ENTER && event.getAction() == KeyEvent.ACTION_DOWN){
 
+            //Launch login method, view is defined up
             login(v);
 
         }
@@ -183,6 +184,7 @@ public class MainActivity extends AppCompatActivity implements
     @Override
     public void onClick(View view) {
 
+        //If clicked on imageView OR on empty space in constraint layout
         if (view.getId() == R.id.imageView || view.getId() == R.id.constraintLayout){
 
             Log.i("ClickedItemsID", String.valueOf(view.getId()));//Just for testing

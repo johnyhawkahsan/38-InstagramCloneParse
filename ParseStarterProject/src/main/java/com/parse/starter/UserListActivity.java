@@ -46,7 +46,7 @@ public class UserListActivity extends AppCompatActivity {
 
     }
 
-    //When user selects and image, this method defines what to do with the selected data
+    //When user selects the image, this method defines what to do with the selected data
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -57,23 +57,24 @@ public class UserListActivity extends AppCompatActivity {
 
             try {
 
-                Bitmap bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), selectedImage);
+                Bitmap bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), selectedImage);//Convert data to Bitmap data
 
-                Log.i("Photo", "Received");
+                Log.i("Photo", "Received");//If log shows this, this means image data is successful
 
+                //In order to send it in ParseObject form, it needs to be translated to ByteArray
                 ByteArrayOutputStream stream = new ByteArrayOutputStream();
 
-                bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
+                bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);//Compress using png format
 
-                byte[] byteArray = stream.toByteArray();
+                byte[] byteArray = stream.toByteArray();//Convert byteArray stream data to byteArray
 
-                ParseFile file = new ParseFile("image.png", byteArray);//In order to get a ParseFile, we need to convert it to byteArray
+                ParseFile file = new ParseFile("image.png", byteArray);//In order to get a ParseFile, we need to pass byteArray, that's why we need byteArray in the first place
 
                 ParseObject object = new ParseObject("Image");//Create class images
 
-                object.put("image", file);
+                object.put("image", file);//Save file(parseobject)
 
-                object.put("username", ParseUser.getCurrentUser().getUsername());
+                object.put("username", ParseUser.getCurrentUser().getUsername());//Save username of the user who's posting the image as well
 
                 object.saveInBackground(new SaveCallback() {
                     @Override
@@ -85,7 +86,7 @@ public class UserListActivity extends AppCompatActivity {
 
                         } else {
 
-                            Toast.makeText(UserListActivity.this, e.getMessage().toString(), Toast.LENGTH_LONG).show();
+                            Toast.makeText(UserListActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
 
                         }
 
@@ -100,6 +101,9 @@ public class UserListActivity extends AppCompatActivity {
         }
     }
 
+
+
+    //Create menu after creating directory "menu" in resources and add share_menu.xml
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
@@ -108,6 +112,8 @@ public class UserListActivity extends AppCompatActivity {
 
         return super.onCreateOptionsMenu(menu);
     }
+
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -129,6 +135,7 @@ public class UserListActivity extends AppCompatActivity {
 
             }
 
+            //If user clicks logout, log him out of parse and start main activity
         } else if (item.getItemId() == R.id.logout){
 
             ParseUser.logOut();
@@ -148,7 +155,7 @@ public class UserListActivity extends AppCompatActivity {
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
 
-        if (requestCode ==1){
+        if (requestCode == 1){
 
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
 
@@ -199,6 +206,7 @@ public class UserListActivity extends AppCompatActivity {
         query.addAscendingOrder("username");
 
         query.findInBackground(new FindCallback<ParseUser>() {
+
             @Override
             public void done(List<ParseUser> objects, ParseException e) {
 

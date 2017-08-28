@@ -30,11 +30,13 @@ public class UserFeedActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
 
+        //Get the name of user that's image is being displayed in intent extra
         String activeUsername = intent.getStringExtra("username");
 
         //Set title to active username
         setTitle(activeUsername + "'s Feed");
 
+        //Search Image table
         ParseQuery<ParseObject> query = new ParseQuery<ParseObject>("Image");
 
         query.whereEqualTo("username", activeUsername);//Get the data of active username
@@ -48,21 +50,26 @@ public class UserFeedActivity extends AppCompatActivity {
 
                     if (list.size() > 0){
 
+                        //Create individual ParseObject from all the list we received
                         for (ParseObject object : list){
 
-                            ParseFile file = (ParseFile) object.get("image");//image is the field
+                            //Get image file from single object and Save image file in the variable
+                            ParseFile file = (ParseFile) object.get("image");
 
                             file.getDataInBackground(new GetDataCallback() {
                                 @Override
                                 public void done(byte[] bytes, ParseException e) {
 
+                                    //This data is received from Parse in the form of ByteArray
                                     if (e == null && bytes != null){
 
+                                        //Convert ByteArray data to Bitmap
                                         Bitmap bitmap = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
 
                                         //We're creating new image view instead of getting/finding as linear layout above
                                         ImageView imageView = new ImageView(getApplicationContext());
 
+                                        //Set width and height of imageView
                                         imageView.setLayoutParams(new ViewGroup.LayoutParams(
                                                 ViewGroup.LayoutParams.MATCH_PARENT,
                                                 ViewGroup.LayoutParams.WRAP_CONTENT
@@ -71,6 +78,7 @@ public class UserFeedActivity extends AppCompatActivity {
                                         //imageView.setImageDrawable(getResources().getDrawable(R.drawable.instagram));//That was for testing and it showed one image from our drawable folder
                                         imageView.setImageBitmap(bitmap);//Set the bitmap that we got from parse here
 
+                                        //Add this imageview to linearLayout
                                         linearLayout.addView(imageView);
 
                                     }

@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "C:\\Users\\ahsan\\.android\\build-cache\\0e37a62feb358ccd02af850cadff7db2a3fdde2b\\output\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
         "source": "C:\\Users\\ahsan\\.android\\build-cache\\0e37a62feb358ccd02af850cadff7db2a3fdde2b\\output\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\ahsan\\.android\\build-cache\\0e37a62feb358ccd02af850cadff7db2a3fdde2b\\output\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Muhammad Ahsan\\AndroidStudioProjects\\38-InstagramCloneParse\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
